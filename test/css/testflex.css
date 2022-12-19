@@ -1,0 +1,51 @@
+.e1 {
+  background-color: lightcoral;
+}
+
+.e2 {
+  background-color: lightblue;
+}
+
+.e3 {
+  background-color: lightseagreen;
+}
+
+.e4 {
+  background-color: lightcyan;
+}
+
+.e5 {
+  background-color: lightgreen;
+}
+
+.e6 {
+  background-color: lightgray;
+}
+
+section {
+  width: 99%;
+  height: 500px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: self;
+}
+
+.box1,
+.box2 {
+  height: 25%;
+  width: 100%;
+  border: 2px solid black;
+  border-bottom: none;
+  border-top: none;
+  flex: 1 1 auto;
+  display: flex;
+}
+
+div div {
+  text-align: center;
+  flex-direction: row;
+  flex: 1 1 auto;
+  border: 2px solid black;
+  margin: 10px;
+}

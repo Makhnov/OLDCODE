@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>La salle du conseil</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link
+      data-n-head="ssr"
+      rel="icon"
+      type="image/x-icon"
+      href="./img/favicon.ico"
+    />
+  </head>
+
+  <body onload="zoomInit()">
+    <input onclick="zoomIn()" type="button" class="bouton zoomIn" />
+    <input onclick="zoomOut()" type="button" class="bouton zoomOut" />
+    <input onclick="zoomInit()" type="button" class="bouton zoomInit" />
+
+    <div id="scene" class="cible">
+      <div class="conseil"></div>
+      <div class="adhemar"></div>
+      <div class="aleksia"></div>
+      <div class="alexandra"></div>
+      <div class="jalana"></div>
+      <div class="jimmy"></div>
+      <div class="laurain"></div>
+      <div class="ancelin"></div>
+      <div class="precis"></div>
+      <div class="seleste"></div>
+      <div class="tenebre"></div>
+      <div class="tharion"></div>
+      <div class="vaillant"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

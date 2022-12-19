@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Accès protégé"
+AuthUserFile /domains/makh.fr/.htpasswd
+require valid-user
